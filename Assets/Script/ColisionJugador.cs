@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement; // Necesario para reiniciar la escena
 public class LevelTrigger : MonoBehaviour
 {
     [Header("Configuración de Etiquetas")]
-    [SerializeField] private string obstacleTag = "Obstaculo"; // Para perder/morir
-    [SerializeField] private string winTag = "Meta";          // Para ganar/reiniciar el nivel
+    [SerializeField] private string obstacleTag = "Obstaculo"; 
+    [SerializeField] private string winTag = "Meta";  
 
     // Si choca físicamente (Colisiones normales con paredes u obstáculos)
     private void OnCollisionEnter2D(Collision2D collision)
